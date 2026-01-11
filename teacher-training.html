@@ -4,11 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Access Company</title>
+    <title>Access Company :: Teacher Training</title>
+    <meta name="description"
+        content="Access Company offers structured, multi-level professional development programs for new and existing teachers, aligning with NEP 2020 and 21st-century competencies.">
+    <meta name="keywords"
+        content="Teacher Training, Professional Development, NEP 2020, Teacher Readiness Program, PDP, Teacher Certification, Soft Skills, Digital Skills, Emotional Intelligence">
+    <meta name="author" content="Access Company">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
 </head>
 
 <body>
@@ -41,6 +47,7 @@
                 <li><a href="career.html">Career</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+            <div class="hamburger" onclick="toggleMenu()"> <span></span> <span></span> <span></span> </div>
         </nav>
     </header>
     <section class="banner-title">
@@ -48,7 +55,7 @@
         <h6>“We don’t just place teachers — we build them.”</h6>
         <p>ACCESS offers structured, multi-level professional development for new and existing teachers</p>
     </section>
-    <div class="row" style="margin:4rem">
+    <div class="row page-margin">
         <div class="col-sm-6 mb-3 mb-sm-0">
             <div class="color-bar">&nbsp;</div>
             <div class="card-body card-body-bg-color">
@@ -78,7 +85,7 @@
         </div>
         <hr>
     </div>
-    <div class="row" style="margin:4rem">
+    <div class="row page-margin">
         <div class="col-sm-12 mb-3 mb-sm-0">
             <h3 class="text-center">Professional Development Program (PDP)</h3>
             <p class="text-center">For existing teachers in schools</p>
@@ -418,10 +425,11 @@
                     </div>
                 </div>
             </div>
+            <br><br>
+            <hr>
         </div>
-        <hr>
     </div>
-    <div class="row" style="margin:4rem">
+    <div class="row page-margin">
         <div class="col-sm-12 mb-3 mb-sm-0">
             <h3>Who Should Attend?</h3>
             <ul>
@@ -432,7 +440,7 @@
             </ul>
         </div>
     </div>
-    <div class="row" style="margin:4rem">
+    <div class="row page-margin">
         <div class="col-sm-12 mb-3 mb-sm-0">
             <h3>Suggested Delivery Model</h3>
             <ul>
@@ -443,7 +451,7 @@
             </ul>
         </div>
     </div>
-    <div class="row" style="margin:4rem">
+    <div class="row page-margin">
         <div class="col-sm-12 mb-3 mb-sm-0">
             <h3>Certification & Recognition</h3>
             <ul>
@@ -451,7 +459,7 @@
             </ul>
         </div>
     </div>
-    <div class="row" style="margin:4rem">
+    <div class="row page-margin">
         <div class="col-sm-12 mb-3 mb-sm-0">
             <h3>Why PDP?</h3>
             <ul>
@@ -465,11 +473,26 @@
             </ul>
         </div>
     </div>
-    </div>
-    <footer class="footer">
-        <p>&copy; 2026 Access Company. All rights reserved.</p>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <div class="mb-3">
+                <a href="#" class="btn btn-outline-light btn-floating m-1" role="button">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="#" class="btn btn-outline-light btn-floating m-1" role="button">
+                    <i class="bi bi-youtube"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/accesscompanyindia/"
+                    class="btn btn-outline-light btn-floating m-1" role="button">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </div>
+            <p class="mb-0">&copy; 2026 Access Company All rights reserved.</p>
+        </div>
     </footer>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="js/script.js"></script>
 </body>
 
 </html>
